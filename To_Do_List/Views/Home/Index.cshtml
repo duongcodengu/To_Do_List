@@ -1,19 +1,4 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
- <h2 class="mb-4"> To do list</h2>
- <!-- Add task-->
- <from asp-action="" method="post" >
-     <input  name="title" class="from-control me-2" placeholder="Ask new task" required/>
-     <button type="submit" class="btn btn-primary"> Add</button>
- </from>
-
- <!-- Filter-->
-<from method="get" class="mb-3">
-<select name="status" class="from-select w-25" onchange="this.form.submit()">
-    <option value=""> All</option>
-    <option value="pending"> Pending</option>
-    <option value="complete"> Complete</option>
-</select>
-</from>
+<h2> welcome</h2>
